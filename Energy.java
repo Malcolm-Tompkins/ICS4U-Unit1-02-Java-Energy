@@ -9,7 +9,7 @@
 // Imports the scanner class
 import java.util.Scanner;
 /**
-* Calculates the amount of energy produced from a mass 
+* Calculates the amount of energy produced from a mass
 * moving at the speed of light.
 */
 
@@ -50,7 +50,7 @@ final class Energy {
             // Output
 
             System.out.println("The energy produced is: " + energy + " MJ");
-        }catch (java.util.inputMismatchException ex) {
+        } catch (java.util.inputMismatchException ex) {
             System.out.println("Invalid input");
         }
         System.out.println("\nDone.");
